@@ -1,0 +1,25 @@
+[Desktop Action Terminale]
+Exec=`pwd`/docker-starter.sh term
+Name=Terminale
+Terminal=true
+
+[Desktop Entry]
+Actions=Terminale;
+Categories=Network;FileTransfer;Game;
+Comment[en_GB]=
+Comment=
+Exec=`pwd`/docker-starter.sh
+GenericName[en_GB]=
+GenericName=
+Icon=/usr/share/pixmaps/netbeans.png
+MimeType=
+Name=Netbeans Docker
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
