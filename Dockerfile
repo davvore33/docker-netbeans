@@ -41,7 +41,7 @@ RUN chmod +x /usr/local/bin/netbeans && \
 ADD netbeans.conf /usr/local/netbeans-8.1/etc/netbeans.conf
 
 RUN apt-get update && apt-get install -y ure imagemagick
-
+RUN locale-gen it_IT.UTF-8 && update-locale 
 USER developer
 ENV HOME /home/developer
 WORKDIR /home/developer
